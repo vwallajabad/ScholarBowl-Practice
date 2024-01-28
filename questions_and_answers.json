@@ -1,0 +1,95 @@
+{
+    "quizbowl": {
+      "literature": [
+        {
+          "question": "Who is the author of the novel 'To Kill a Mockingbird'?",
+          "answer": "Harper Lee"
+        },
+        {
+          "question": "In which Shakespearean play does the character Hamlet appear?",
+          "answer": "Hamlet"
+        },
+        {
+          "question": "What is the pen name of the author of the 'Harry Potter' series?",
+          "answer": "J.K. Rowling"
+        }
+      ],
+      "science": [
+        {
+          "question": "What is the chemical symbol for water?",
+          "answer": "H2O"
+        },
+        {
+          "question": "Who developed the theory of relativity?",
+          "answer": "Albert Einstein"
+        },
+        {
+          "question": "What is the largest planet in our solar system?",
+          "answer": "Jupiter"
+        }
+      ],
+      "mathematics": [
+        {
+          "question": "What is the value of π (pi) to two decimal places?",
+          "answer": "3.14"
+        },
+        {
+          "question": "Solve the equation: 2x + 5 = 15",
+          "answer": "x = 5"
+        },
+        {
+          "question": "What is the square root of 64?",
+          "answer": "8"
+        }
+      ],
+      "fine_arts": [
+        {
+          "question": "Who painted the 'Mona Lisa'?",
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "question": "In music, what does 'piano' mean?",
+          "answer": "Soft or quiet"
+        },
+        {
+          "question": "Which famous sculptor created the statue 'David'?",
+          "answer": "Michelangelo"
+        }
+      ],
+      "history": [
+        {
+          "question": "Who was the first President of the United States?",
+          "answer": "George Washington"
+        },
+        {
+          "question": "In what year did World War II end?",
+          "answer": "1945"
+        },
+        {
+          "question": "Who wrote 'The Communist Manifesto'?",
+          "answer": "Karl Marx and Friedrich Engels"
+        }
+      ],
+      "other": [
+        {
+          "question": "What is the capital city of Australia?",
+          "answer": "Canberra"
+        },
+        {
+          "question": "Name the largest mammal on Earth.",
+          "answer": "Blue whale"
+        }
+      ],
+      "random": [
+        {
+          "question": "What is the capital of Iceland?",
+          "answer": "Reykjavik"
+        },
+        {
+          "question": "Who wrote the play 'Romeo and Juliet'?",
+          "answer": "William Shakespeare"
+        }
+      ]
+    }
+  }
+  

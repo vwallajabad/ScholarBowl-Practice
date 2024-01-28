@@ -1,0 +1,23 @@
+.center-dropdown {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.center-input {
+    margin-top: 15%;
+    justify-content: center;
+}
+
+.question{
+    margin-top: 10%;
+    justify-content: center;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
