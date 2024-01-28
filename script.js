@@ -3,12 +3,15 @@ let answer = "";
 
 if (device.mobile()) {
     document.getElementById("dropdown_id").classList.remove("w-25");
-    document.getElementById("drop_id").classList.remove("w-25");
-    document.getElementById("question_id").classList.remove("w-25");
-    document.getElementById("input_id").classList.remove("w-25");
     document.getElementById("dropdown_id").classList.add("w-100");
+    
+    document.getElementById("drop_id").classList.remove("w-25");
     document.getElementById("drop_id").classList.add("w-100");
+    
+    document.getElementById("question_id").classList.remove("w-25");
     document.getElementById("question_id").classList.add("w-100");
+    
+    document.getElementById("input_id").classList.remove("w-25");
     document.getElementById("input_id").classList.add("w-100");
 }
 
@@ -150,7 +153,7 @@ async function _RANDOM() {
 
 
 function _check() {
-    return ((document.getElementById("answer").value) == answer);
+    return ((document.getElementById("answer").value.toUpperCase()) == answer.toUpperCase());
 }
 
 function _idk(){
