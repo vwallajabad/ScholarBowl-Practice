@@ -152,3 +152,7 @@ async function _RANDOM() {
 function _check() {
     return ((document.getElementById("answer").value) == answer);
 }
+
+function _idk(){
+    alert(answer);
+}
