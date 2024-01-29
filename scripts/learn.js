@@ -1,6 +1,7 @@
 let jsonData = "";
 let i = 0;
 let music_mode = false;
+let book_mode = false;
 let art_mode = false;
 
 if (device.mobile()) {
@@ -33,6 +34,7 @@ fetchJSONData();
 
 function _Musicians() {
     art_mode = false;
+    book_mode = false;
     music_mode = true;
     document.getElementById("dropdown_id").innerHTML = "Top 20 Famous Musicians";
     document.getElementById("title").innerHTML = jsonData.learn._20FamousMusicians[i].name;
@@ -40,8 +42,19 @@ function _Musicians() {
     document.getElementById("pieces").innerHTML = "Country: " + jsonData.learn._20FamousMusicians[i].country + "<br>Work(s): " + jsonData.learn._20FamousMusicians[i].famous_pieces;
 }
 
+function _Books() {
+    art_mode = false;
+    music_mode = false;
+    book_mode = true;
+    document.getElementById("dropdown_id").innerHTML = "Top 20 Famous Musicians";
+    document.getElementById("title").innerHTML = jsonData.learn._100FamousBooks[i].book;
+    document.getElementById("years").innerHTML = "";
+    document.getElementById("pieces").innerHTML = jsonData.learn._100FamousBooks[i].author;
+}
+
 function _Artists() {
     music_mode_mode = false;
+    book_mode = false;
     art_mode = true;
     document.getElementById("dropdown_id").innerHTML = "Top 20 Famous Artists";
     document.getElementById("title").innerHTML = jsonData.learn._20FamousArtists[i].artist;
@@ -53,31 +66,68 @@ document.addEventListener('keydown', handleKeyPress);
 
 function handleKeyPress(event) {
     if (event.key === 'ArrowLeft') {
-        if (i == 0) {
-            i = 10;
-        }
-        else {
-            i--;
-        }
-        if(music_mode && !art_mode){
+        if(music_mode && !art_mode && !book_mode){
+            if (i == 0) {
+                i = 19;
+            }
+            else {
+                i--;
+            }    
             _Musicians();
         }
-        else if(art_mode){
+        else if(art_mode && !music_mode && !book_mode){
+            if (i == 0) {
+                i = 19;
+            }
+            else {
+                i--;
+            }
             _Artists();
         }
-    } else if (event.key === 'ArrowRight') {
-        if (i == 19) {
-            i = 10;
-        }
-        else {
-            i++;
+        else if(!art_mode && !music_mode && book_mode){
+            if (i == 0) {
+                i = 19;
+            }
+            else {
+                i--;
+    
+            }    
+            _Books();
 
         }
-        if(music_mode && !art_mode){
+
+        }
+
+    else if (event.key === 'ArrowRight') {
+        if(music_mode && !art_mode && !book_mode){
+            if (i == 19) {
+                i = 0;
+            }
+            else {
+                i++;
+    
+            }    
             _Musicians();
         }
-        else if(art_mode){
+        else if(art_mode && !music_mode && !book_mode){
+            if (i == 19) {
+                i = 0;
+            }
+            else {
+                i++;
+    
+            }    
             _Artists();
+        }
+        else if(!art_mode && !music_mode && book_mode){
+            if (i == 100) {
+                i = 0;
+            }
+            else {
+                i++;
+    
+            }    
+            _Books();
         }
     }
 }

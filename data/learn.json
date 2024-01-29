@@ -1,268 +1,662 @@
 {
     "learn": {
-    "_20FamousArtists": [
-        {
-            "artist": "Pablo Picasso",
-            "years": "(1881 – 1973)",
-            "country": "Spain",
-            "movements": "Cubism, Blue, Rose",
-            "artworks": "Guernica, Femme a la montre"
-        },
-        {
-            "artist": "Leonardo da Vinci",
-            "years": "(1452 – 1519)",
-            "country": "Italy",
-            "movements": "High Renaissance",
-            "artworks": "Mona Lisa, The Last Supper"
-        },
-        {
-            "artist": "Michaelangelo",
-            "years": "(1475 – 1564)",
-            "country": "Italy",
-            "movements": "High Renaissance",
-            "artworks": "David, Sistine Chapel, The Last Judgement"
-        },
-        {
-            "artist": "Raphael",
-            "years": "(1483 – 1520)",
-            "country": "Italy",
-            "movements": "High Renaissance",
-            "artworks": "The School of Athens"
-        },
-        {
-            "artist": "Rembrandt",
-            "years": "(1606 – 1690)",
-            "country": "Netherlands / Dutch Republic",
-            "movements": "Baroque",
-            "artworks": "The Night Watch"
-        },
-        {
-            "artist": "Vincent Van Gough",
-            "years": "(1853 – 1890)",
-            "country": "Netherlands",
-            "movements": "Post-Impressionism",
-            "artworks": "The Starry Night, Sunflowers"
-        },
-        {
-            "artist": "Auguste Rodin",
-            "years": "(1840 – 1917)",
-            "country": "France",
-            "movements": "",
-            "": "The Thinker, The Gates of Hell"
-        },
-        {
-            "artist": "Sandro Botticelli",
-            "years": "(1445 – 1510)",
-            "country": "Italy",
-            "movements": "Italian Renaissance",
-            "artworks": "The Birth of Venus, Adoration of the Magi"
-        },
-        {
-            "artist": "Clause Monet",
-            "years": "(1840 – 1926)",
-            "country": "France",
-            "movements": "Impressionism",
-            "artworks": "Impression, Sunrise, Water Lilies, Haystacks"
-        },
-        {
-            "artist": "Edvard Munch",
-            "years": "(1863 – 1944)",
-            "country": "Norway",
-            "movements": "Expressionism",
-            "artworks": "The Scream, The Sick Child"
-        },
-        {
-            "artist": "Salvador Dali",
-            "years": "(1904 - 1989)",
-            "country": "Spain",
-            "movements": "Cubism, Dada, Surrealism",
-            "artworks": "The Persistence of Memory"
-        },
-        {
-            "artist": "Jackson Pollock",
-            "years": "(1912 – 1956)",
-            "country": "U.S.A.",
-            "movements": "Abstract Expressionism",
-            "artworks": "Convergence"
-        },
-        {
-            "artist": "Johannes Vermeer",
-            "years": "(1632 – 1675)",
-            "country": "Netherlands / Dutch Republic",
-            "movements": "Baroque",
-            "artworks": "Girl with a Pearl Earring, The Milkmaid"
-        },
-        {
-            "artist": "Gustav Klimt",
-            "years": "(1862 – 1918)",
-            "country": "Austria",
-            "movements": "Art Nouveau",
-            "artworks": "The Kiss"
-        },
-        {
-            "artist": "Edward Hopper",
-            "years": "(1882 – 1967)",
-            "country": "U.S.A.",
-            "movements": "Realism",
-            "artworks": "Nighthawks, Chop Suey"
-        },
-        {
-            "artist": "Georges Seurat",
-            "years": "(1859 – 1891)",
-            "country": "France",
-            "movements": "Neo-Impressionism",
-            "artworks": "A Sunday Afternoon on the Island of La Grande Jatte"
-        },
-        {
-            "artist": "Pierre August-Renoir",
-            "years": "(1841 – 1919)",
-            "country": "France",
-            "movements": "Impressionism",
-            "artworks": "Luncheon of the Boating Party"
-        },
-        {
-            "artist": "Henri Matisse",
-            "years": "(1869 – 1954)",
-            "country": "France",
-            "movements": "Fauvism",
-            "artworks": "The Snail, Woman with a Hat"
-        },
-        {
-            "artist": "Andy Warhol",
-            "years": "(1928 – 1987)",
-            "country": "U.S.A.",
-            "movements": "Pop Art",
-            "artworks": "Campbell’s Soup Cans"
-        },
-        {
-            "artist": "Grant Wood",
-            "years": "(1891 – 1942)",
-            "country": "U.S.A.",
-            "movements": "Regionalism",
-            "artworks": "American Gothic"
-        }
-    ],
-    "_20FamousMusicians": [
-        {
-            "name": "Wolfgang Mozart",
-            "years_active": "(1756 – 1791)",
-            "country": "Austria",
-            "famous_pieces": "Requiem, The Magic Flute, Don Giovanni"
-        },
-        {
-            "name": "Johann Bach",
-            "years_active": "(1685 – 1750)",
-            "country": "Germany",
-            "famous_pieces": "Brandenberg Cocnertos, Goldberg Variations"
-        },
-        {
-            "name": "Ludwig Van Beethoven",
-            "years_active": "(1770 – 1827)",
-            "country": "Germany",
-            "famous_pieces": "Symphony No. 9 (Choral), No. 6 (Pastoral Symphony, No. 5 (Eroica Symphony), Moonlight Sonata, Fidelio"
-        },
-        {
-            "name": "Franz Schubert",
-            "years_active": "(1797 – 1828)",
-            "country": "Austria",
-            "famous_pieces": "Symphony Number 9 (“The Great”), Symphony Number 8 (unfinished)"
-        },
-        {
-            "name": "Claude Debussy",
-            "years_active": "(1862 – 1918)",
-            "country": "French",
-            "famous_pieces": "Nocturnes, Images, Pelléas et Mélisande"
-        },
-        {
-            "name": "Igor Stravinsky",
-            "years_active": "(1882 – 1971)",
-            "country": "Russia",
-            "famous_pieces": "The Rite of Spring, The Firebird"
-        },
-        {
-            "name": "Johannes Brahms",
-            "years_active": "(1833 – 1897)",
-            "country": "Austria",
-            "famous_pieces": "Wiegenlied (Lulliby), German Requiem, Hungarian Dances"
-        },
-        {
-            "name": "Giuseppi Verdi",
-            "years_active": "(1813 – 1901)",
-            "country": "Italy",
-            "famous_pieces": "Aida, Otella, Falstaff"
-        },
-        {
-            "name": "Richard Wagner",
-            "years_active": "(1815 – 1883)",
-            "country": "Germany",
-            "famous_pieces": "The Ring of Nibelung"
-        },
-        {
-            "name": "Béla Bartók",
-            "years_active": "(1881 – 1945)",
-            "country": "Hungarian",
-            "famous_pieces": "Cantata Profana, 6 string quartets"
-        },
-        {
-            "name": "Pyotr Tchaikovsky",
-            "years_active": "(1840 – 1893)",
-            "country": "Russia",
-            "famous_pieces": "Swan Lake, The Nutcracker, 1812 Overture"
-        },
-        {
-            "name": "Frédéric Chopin",
-            "years_active": "(1810 – 1849)",
-            "country": "Poland",
-            "famous_pieces": "Minute Waltz, Fantaisie-Impromptu"
-        },
-        {
-            "name": "Antonio Vivaldi",
-            "years_active": "(1678 – 1741)",
-            "country": "Italy",
-            "famous_pieces": "The Four Seasons"
-        },
-        {
-            "name": "Joseph Haydn",
-            "years_active": "(1732 – 1809)",
-            "country": "Austria",
-            "famous_pieces": "Called “Father of the Symphony”; Symphony No. 94 (Surprise), The Creation, London Symphonies"
-        },
-        {
-            "name": "Robert Schumann",
-            "years_active": "(1810 – 1856)",
-            "country": "Germany",
-            "famous_pieces": "Carnival, Symphonic Studies"
-        },
-        {
-            "name": "George Handel",
-            "years_active": "(1685 – 1759)",
-            "country": "Germany",
-            "famous_pieces": "Messiah, Water Music, Music for the Royal Fireworks"
-        },
-        {
-            "name": "Felix Mendelsohn",
-            "years_active": "(1809 – 1847)",
-            "country": "Germany",
-            "famous_pieces": "“Wedding March”, The Hebrides, melody for “Hark the Herald Angles Sing”"
-        },
-        {
-            "name": "Franz Liszt",
-            "years_active": "(1811 – 1866)",
-            "country": "Austria",
-            "famous_pieces": "greatest pianist perhaps, Hungarian Rhapsody"
-        },
-        {
-            "name": "Antonín Dvořák",
-            "years_active": "(1841 – 1904)",
-            "country": "Austria",
-            "famous_pieces": "New World Symphony (Symphony No. 9) – recording brought to the moon by Neil Armstrong"
-        },
-        {
-            "name": "Gustav Mahler",
-            "years_active": "(1860 – 1911)",
-            "country": "Austria",
-            "famous_pieces": "Resurrection (Symphony No. 2), The Song of the Earth, Symphony of a Thousand"
-        }
-    ]
-}
+        "_20FamousArtists": [
+            {
+                "artist": "Pablo Picasso",
+                "years": "(1881 – 1973)",
+                "country": "Spain",
+                "movements": "Cubism, Blue, Rose",
+                "artworks": "Guernica, Femme a la montre"
+            },
+            {
+                "artist": "Leonardo da Vinci",
+                "years": "(1452 – 1519)",
+                "country": "Italy",
+                "movements": "High Renaissance",
+                "artworks": "Mona Lisa, The Last Supper"
+            },
+            {
+                "artist": "Michaelangelo",
+                "years": "(1475 – 1564)",
+                "country": "Italy",
+                "movements": "High Renaissance",
+                "artworks": "David, Sistine Chapel, The Last Judgement"
+            },
+            {
+                "artist": "Raphael",
+                "years": "(1483 – 1520)",
+                "country": "Italy",
+                "movements": "High Renaissance",
+                "artworks": "The School of Athens"
+            },
+            {
+                "artist": "Rembrandt",
+                "years": "(1606 – 1690)",
+                "country": "Netherlands / Dutch Republic",
+                "movements": "Baroque",
+                "artworks": "The Night Watch"
+            },
+            {
+                "artist": "Vincent Van Gough",
+                "years": "(1853 – 1890)",
+                "country": "Netherlands",
+                "movements": "Post-Impressionism",
+                "artworks": "The Starry Night, Sunflowers"
+            },
+            {
+                "artist": "Auguste Rodin",
+                "years": "(1840 – 1917)",
+                "country": "France",
+                "movements": "",
+                "": "The Thinker, The Gates of Hell"
+            },
+            {
+                "artist": "Sandro Botticelli",
+                "years": "(1445 – 1510)",
+                "country": "Italy",
+                "movements": "Italian Renaissance",
+                "artworks": "The Birth of Venus, Adoration of the Magi"
+            },
+            {
+                "artist": "Clause Monet",
+                "years": "(1840 – 1926)",
+                "country": "France",
+                "movements": "Impressionism",
+                "artworks": "Impression, Sunrise, Water Lilies, Haystacks"
+            },
+            {
+                "artist": "Edvard Munch",
+                "years": "(1863 – 1944)",
+                "country": "Norway",
+                "movements": "Expressionism",
+                "artworks": "The Scream, The Sick Child"
+            },
+            {
+                "artist": "Salvador Dali",
+                "years": "(1904 - 1989)",
+                "country": "Spain",
+                "movements": "Cubism, Dada, Surrealism",
+                "artworks": "The Persistence of Memory"
+            },
+            {
+                "artist": "Jackson Pollock",
+                "years": "(1912 – 1956)",
+                "country": "U.S.A.",
+                "movements": "Abstract Expressionism",
+                "artworks": "Convergence"
+            },
+            {
+                "artist": "Johannes Vermeer",
+                "years": "(1632 – 1675)",
+                "country": "Netherlands / Dutch Republic",
+                "movements": "Baroque",
+                "artworks": "Girl with a Pearl Earring, The Milkmaid"
+            },
+            {
+                "artist": "Gustav Klimt",
+                "years": "(1862 – 1918)",
+                "country": "Austria",
+                "movements": "Art Nouveau",
+                "artworks": "The Kiss"
+            },
+            {
+                "artist": "Edward Hopper",
+                "years": "(1882 – 1967)",
+                "country": "U.S.A.",
+                "movements": "Realism",
+                "artworks": "Nighthawks, Chop Suey"
+            },
+            {
+                "artist": "Georges Seurat",
+                "years": "(1859 – 1891)",
+                "country": "France",
+                "movements": "Neo-Impressionism",
+                "artworks": "A Sunday Afternoon on the Island of La Grande Jatte"
+            },
+            {
+                "artist": "Pierre August-Renoir",
+                "years": "(1841 – 1919)",
+                "country": "France",
+                "movements": "Impressionism",
+                "artworks": "Luncheon of the Boating Party"
+            },
+            {
+                "artist": "Henri Matisse",
+                "years": "(1869 – 1954)",
+                "country": "France",
+                "movements": "Fauvism",
+                "artworks": "The Snail, Woman with a Hat"
+            },
+            {
+                "artist": "Andy Warhol",
+                "years": "(1928 – 1987)",
+                "country": "U.S.A.",
+                "movements": "Pop Art",
+                "artworks": "Campbell’s Soup Cans"
+            },
+            {
+                "artist": "Grant Wood",
+                "years": "(1891 – 1942)",
+                "country": "U.S.A.",
+                "movements": "Regionalism",
+                "artworks": "American Gothic"
+            }
+        ],
+        "_20FamousMusicians": [
+            {
+                "name": "Wolfgang Mozart",
+                "years_active": "(1756 – 1791)",
+                "country": "Austria",
+                "famous_pieces": "Requiem, The Magic Flute, Don Giovanni"
+            },
+            {
+                "name": "Johann Bach",
+                "years_active": "(1685 – 1750)",
+                "country": "Germany",
+                "famous_pieces": "Brandenberg Cocnertos, Goldberg Variations"
+            },
+            {
+                "name": "Ludwig Van Beethoven",
+                "years_active": "(1770 – 1827)",
+                "country": "Germany",
+                "famous_pieces": "Symphony No. 9 (Choral), No. 6 (Pastoral Symphony, No. 5 (Eroica Symphony), Moonlight Sonata, Fidelio"
+            },
+            {
+                "name": "Franz Schubert",
+                "years_active": "(1797 – 1828)",
+                "country": "Austria",
+                "famous_pieces": "Symphony Number 9 (“The Great”), Symphony Number 8 (unfinished)"
+            },
+            {
+                "name": "Claude Debussy",
+                "years_active": "(1862 – 1918)",
+                "country": "French",
+                "famous_pieces": "Nocturnes, Images, Pelléas et Mélisande"
+            },
+            {
+                "name": "Igor Stravinsky",
+                "years_active": "(1882 – 1971)",
+                "country": "Russia",
+                "famous_pieces": "The Rite of Spring, The Firebird"
+            },
+            {
+                "name": "Johannes Brahms",
+                "years_active": "(1833 – 1897)",
+                "country": "Austria",
+                "famous_pieces": "Wiegenlied (Lulliby), German Requiem, Hungarian Dances"
+            },
+            {
+                "name": "Giuseppi Verdi",
+                "years_active": "(1813 – 1901)",
+                "country": "Italy",
+                "famous_pieces": "Aida, Otella, Falstaff"
+            },
+            {
+                "name": "Richard Wagner",
+                "years_active": "(1815 – 1883)",
+                "country": "Germany",
+                "famous_pieces": "The Ring of Nibelung"
+            },
+            {
+                "name": "Béla Bartók",
+                "years_active": "(1881 – 1945)",
+                "country": "Hungarian",
+                "famous_pieces": "Cantata Profana, 6 string quartets"
+            },
+            {
+                "name": "Pyotr Tchaikovsky",
+                "years_active": "(1840 – 1893)",
+                "country": "Russia",
+                "famous_pieces": "Swan Lake, The Nutcracker, 1812 Overture"
+            },
+            {
+                "name": "Frédéric Chopin",
+                "years_active": "(1810 – 1849)",
+                "country": "Poland",
+                "famous_pieces": "Minute Waltz, Fantaisie-Impromptu"
+            },
+            {
+                "name": "Antonio Vivaldi",
+                "years_active": "(1678 – 1741)",
+                "country": "Italy",
+                "famous_pieces": "The Four Seasons"
+            },
+            {
+                "name": "Joseph Haydn",
+                "years_active": "(1732 – 1809)",
+                "country": "Austria",
+                "famous_pieces": "Called “Father of the Symphony”; Symphony No. 94 (Surprise), The Creation, London Symphonies"
+            },
+            {
+                "name": "Robert Schumann",
+                "years_active": "(1810 – 1856)",
+                "country": "Germany",
+                "famous_pieces": "Carnival, Symphonic Studies"
+            },
+            {
+                "name": "George Handel",
+                "years_active": "(1685 – 1759)",
+                "country": "Germany",
+                "famous_pieces": "Messiah, Water Music, Music for the Royal Fireworks"
+            },
+            {
+                "name": "Felix Mendelsohn",
+                "years_active": "(1809 – 1847)",
+                "country": "Germany",
+                "famous_pieces": "“Wedding March”, The Hebrides, melody for “Hark the Herald Angles Sing”"
+            },
+            {
+                "name": "Franz Liszt",
+                "years_active": "(1811 – 1866)",
+                "country": "Austria",
+                "famous_pieces": "greatest pianist perhaps, Hungarian Rhapsody"
+            },
+            {
+                "name": "Antonín Dvořák",
+                "years_active": "(1841 – 1904)",
+                "country": "Austria",
+                "famous_pieces": "New World Symphony (Symphony No. 9) – recording brought to the moon by Neil Armstrong"
+            },
+            {
+                "name": "Gustav Mahler",
+                "years_active": "(1860 – 1911)",
+                "country": "Austria",
+                "famous_pieces": "Resurrection (Symphony No. 2), The Song of the Earth, Symphony of a Thousand"
+            }
+        ],
+        "_100FamousBooks": [
+            {
+                "book": "Don Quixote",
+                "author": "Miguel Cervantes"
+            },
+            {
+                "book": "Pilgrim's Progress",
+                "author": "John Bunyan"
+            },
+            {
+                "book": "Robinson Cursoe",
+                "author": "Daniel Defoe"
+            },
+            {
+                "book": "Gulliver's Travels",
+                "author": "Jonathan Swift"
+            },
+            {
+                "book": "Frankenstein",
+                "author": "Mary Shelley"
+            },
+            {
+                "book": "The Count of Monte Cristo",
+                "author": "Alexandre Dumas"
+            },
+            {
+                "book": "David Copperfield",
+                "author": "Charles Dickens"
+            },
+            {
+                "book": "Wuthering Heights",
+                "author": "Emily Bronte"
+            },
+            {
+                "book": "Jane Eyre",
+                "author": "Charlotte Bronte"
+            },
+            {
+                "book": "The Scarlett Letter",
+                "author": "Nathaniel Hawthorne"
+            },
+            {
+                "book": "Moby Dick",
+                "author": "Herman Melville"
+            },
+            {
+                "book": "Pride and Prejudice",
+                "author": "Jane Austen"
+            },
+            {
+                "book": "Alice's Adventures in Wonderland",
+                "author": "Lewis Carroll"
+            },
+            {
+                "book": "Little Women",
+                "author": "Louisa May Alcott"
+            },
+            {
+                "book": "War and Peace",
+                "author": "Leo Tolstoy"
+            },
+            {
+                "book": "Tom Jones",
+                "author": "Henry Fielding"
+            },
+            {
+                "book": "Vanity Fair",
+                "author": "William Makepeace Thackeray"
+            },
+            {
+                "book": "Huckleberry Finn",
+                "author": "Mark Twain"
+            },
+            {
+                "book": "The Picture of Dorian Gray",
+                "author": "Oscar Wilde"
+            },
+            {
+                "book": "Ulysses",
+                "author": "James Joyce"
+            },
+            {
+                "book": "Animal Farm",
+                "author": "George Orwell"
+            },
+            {
+                "book": "Catch 22",
+                "author": "Joseph Heller"
+            },
+            {
+                "book": "The Grapes of Wrath",
+                "author": "John Steinbeck"
+            },
+            {
+                "book": "Gone with the Wind",
+                "author": "Margaret Mitchell"
+            },
+            {
+                "book": "Slaughterhouse Five",
+                "author": "Kurt Vonnegut Jr."
+            },
+            {
+                "book": "One Flew Over the Cuckoo's Nest",
+                "author": "Ken Kesey"
+            },
+            {
+                "book": "Beloved",
+                "author": "Toni Morrison"
+            },
+            {
+                "book": "On the Road",
+                "author": "Jack Kerouac"
+            },
+            {
+                "book": "The Sound and the Fury",
+                "author": "William Faulkner"
+            },
+            {
+                "book": "Rabbit, Run",
+                "author": "John Updike"
+            },
+            {
+                "book": "An American Tragedy",
+                "author": "Theodore Dreiser"
+            },
+            {
+                "book": "The Lord of the Rings",
+                "author": "J.R.R. Tolkien"
+            },
+            {
+                "book": "Lord of the Flies",
+                "author": "William Golding"
+            },
+            {
+                "book": "A Clockwork Orange",
+                "author": "Anthony Burgess"
+            },
+            {
+                "book": "Things Fall Apart",
+                "author": "Chinua Achebe"
+            },
+            {
+                "book": "Invisible Man",
+                "author": "Ralph Ellison"
+            },
+            {
+                "book": "The Sun Also Rises",
+                "author": "Ernest Hemingway"
+            },
+            {
+                "book": "The Big Sleep",
+                "author": "Raymond Chandler"
+            },
+            {
+                "book": "A Passage to India",
+                "author": "E.M. Forster"
+            },
+            {
+                "book": "I, Claudius",
+                "author": "Robert Graves"
+            },
+            {
+                "book": "Lolita",
+                "author": "Vladimir Nabokov"
+            },
+            {
+                "book": "Their Eyes Were Watching God",
+                "author": "Zora Neale Hurston"
+            },
+            {
+                "book": "Death Comes for the Archbishop",
+                "author": "Willa Cather"
+            },
+            {
+                "book": "All the King's Men",
+                "author": "Robert Penn Warren"
+            },
+            {
+                "book": "Native Son",
+                "author": "Richard Wright"
+            },
+            {
+                "book": "Light in August",
+                "author": "William Faulkner"
+            },
+            {
+                "book": "Midnight's Children",
+                "author": "Salman Rushdie"
+            },
+            {
+                "book": "Metamorphosis",
+                "author": "Kafka"
+            },
+            {
+                "book": "Heart of Darkness",
+                "author": "Joseph Conrad"
+            },
+            {
+                "book": "the color purple",
+                "author": "Alice Walker"
+            },
+            {
+                "book": "1984",
+                "author": "George Orwell"
+            },
+            {
+                "book": "Uncle Tom's Cabin",
+                "author": "Harriet Beecher Stowe"
+            },
+            {
+                "book": "the glass menagerie",
+                "author": "Tennessee Williams"
+            },
+            {
+                "book": "Death of a Salesman",
+                "author": "Arthur Miller"
+            },
+            {
+                "book": "Anna Karenina",
+                "author": "Leo Tolstoy"
+            },
+            {
+                "book": "The Jungle",
+                "author": "Upton Sinclair"
+            },
+            {
+                "book": "The Awakening",
+                "author": "Kate Chopin"
+            },
+            {
+                "book": "Oedipus and Antigone",
+                "author": "Sophocles"
+            },
+            {
+                "book": "A Handmaid's Tale",
+                "author": "Margaret Atwood"
+            },
+            {
+                "book": "Clarissa",
+                "author": "Samuel Richardson"
+            },
+            {
+                "book": "Tom Jones",
+                "author": "Henry Fielding"
+            },
+            {
+                "book": "The Life and Opinions of Tristram Shandy, Gentleman",
+                "author": "Laurence Sterne"
+            },
+            {
+                "book": "Emma",
+                "author": "Jane Austen"
+            },
+            {
+                "book": "Nightmare Abbey",
+                "author": "Thomas Love Peacock"
+            },
+            {
+                "book": "The Narrative of Arthur Gordon Pym of Nantucket",
+                "author": "Edgar Allan Poe"
+            },
+            {
+                "book": "Sybil",
+                "author": "Benjamin Disraeli"
+            },
+            {
+                "book": "The Moonstone",
+                "author": "Wilkie Collins"
+            },
+            {
+                "book": "Middlemarch",
+                "author": "George Eliot"
+            },
+            {
+                "book": "Kidnapped",
+                "author": "Robert Louis Stevenson"
+            },
+            {
+                "book": "Jude the Obscure",
+                "author": "Thomas Hardy"
+            },
+            {
+                "book": "The Red Badge of Courage",
+                "author": "Stephen Crane"
+            },
+            {
+                "book": "Dracula",
+                "author": "Bram Stoker"
+            },
+            {
+                "book": "One Hundred Years of Solitude",
+                "author": "Gabriel Garcia Marquez"
+            },
+            {
+                "book": "Crime and Punishment",
+                "author": "Fyodor Dostoyevsky"
+            },
+            {
+                "book": "Tess of the d'Urbervilles",
+                "author": "Thomas Hardy"
+            },
+            {
+                "book": "Great Expectations",
+                "author": "Charles Dickens"
+            },
+            {
+                "book": "The Illiad",
+                "author": "Homer"
+            },
+            {
+                "book": "The Catcher in the Rye",
+                "author": "J.D. Salinger"
+            },
+            {
+                "book": "Les Miserables",
+                "author": "Victor Hugo"
+            },
+            {
+                "book": "Charlie and the Chocolate Factory",
+                "author": "Roald Dahl"
+            },
+            {
+                "book": "East of Eden",
+                "author": "John Steinbeck"
+            },
+            {
+                "book": "The Brothers Karamazov",
+                "author": "Fyodor Dostoyevsky"
+            },
+            {
+                "book": "Atlas Shrugged",
+                "author": "Ayn Rand"
+            },
+            {
+                "book": "The Time Machine",
+                "author": "H.G. Wells"
+            },
+            {
+                "book": "The Art of War",
+                "author": "Sun Tzu"
+            },
+            {
+                "book": "The Forsyte Saga",
+                "author": "John Galsworthy"
+            },
+            {
+                "book": "Bleak House",
+                "author": "Charles Dickens"
+            },
+            {
+                "book": "Lost Illusions",
+                "author": "Honore de Balzac"
+            },
+            {
+                "book": "A Christmas Carol",
+                "author": "Charles Dickens"
+            },
+            {
+                "book": "Silas Marner",
+                "author": "George Eliot"
+            },
+            {
+                "book": "Mrs. Dalloway",
+                "author": "Virginia Woolf"
+            },
+            {
+                "book": "The Castle",
+                "author": "Franz Kafka"
+            },
+            {
+                "book": "The Razor's Edge",
+                "author": "W. Somerset Maugham"
+            },
+            {
+                "book": "The Return of the Native",
+                "author": "Thomas Hardy"
+            },
+            {
+                "book": "One Day in the Life of Ivan Denisovich",
+                "author": "Aleksandr Solzhenitsyn"
+            },
+            {
+                "book": "Hard Times",
+                "author": "Charles Dickens"
+            },
+            {
+                "book": "Lolita",
+                "author": "Vladimir Nabokov"
+            },
+            {
+                "book": "Peter Pan",
+                "author": "J.M. Barrie"
+            }
+        ]
+    }
 }
