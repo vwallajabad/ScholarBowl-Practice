@@ -8,7 +8,10 @@ if (device.mobile()) {
     document.getElementById("dropdown_id").classList.add("w-100");
     
     document.getElementById("drop_id").classList.remove("w-25");
-    document.getElementById("drop_id").classList.add("w-100");    
+    document.getElementById("drop_id").classList.add("w-100");   
+
+    document.getElementById("next").style.width = "30%";
+    document.getElementById("previous").style.width = "30%";
 }
 
 function fetchJSONData() {
