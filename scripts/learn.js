@@ -46,7 +46,7 @@ function _Books() {
     art_mode = false;
     music_mode = false;
     book_mode = true;
-    document.getElementById("dropdown_id").innerHTML = "Top 20 Famous Musicians";
+    document.getElementById("dropdown_id").innerHTML = "Top 100 Books";
     document.getElementById("title").innerHTML = jsonData.learn._100FamousBooks[i].book;
     document.getElementById("years").innerHTML = "";
     document.getElementById("pieces").innerHTML = jsonData.learn._100FamousBooks[i].author;
