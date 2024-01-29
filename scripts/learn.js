@@ -78,3 +78,23 @@ function handleKeyPress(event) {
         }
     }
 }
+
+function _Previous(){
+    i--;
+    if(music_mode && !art_mode){
+        _Musicians();
+    }
+    else if(art_mode){
+        _Artists();
+    }
+}
+
+function _Next(){
+    i++;
+    if(music_mode && !art_mode){
+        _Musicians();
+    }
+    else if(art_mode){
+        _Artists();
+    }
+}
