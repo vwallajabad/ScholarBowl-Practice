@@ -16,7 +16,7 @@ if (device.mobile()) {
 }
 
 function fetchJSONData() {
-    fetch("./questions_and_answers.json")
+    fetch("./data/questions_and_answers.json")
         .then((res) => {
             if (!res.ok) {
                 throw new Error(`ERROR: ${res.status}`);
@@ -153,9 +153,37 @@ async function _RANDOM() {
 
 
 function _check() {
-    return ((document.getElementById("answer").value.toUpperCase()) == answer.toUpperCase());
+    if(calculateEditDistance(document.getElementById("answer").value.toUpperCase(), answer.toUpperCase())>80){
+        return true;
+    }
+    return false;
 }
 
 function _idk(){
     alert(answer);
 }
+
+function calculateEditDistance(str1, str2) {
+    const matrix = Array(str2.length + 1).fill(null).map(() => Array(str1.length + 1).fill(null))
+
+    for (let i = 0; i <= str1.length; i += 1) {
+      matrix[0][i] = i
+    }
+
+    for (let j = 0; j <= str2.length; j += 1) {
+      matrix[j][0] = j
+    }
+
+    for (let j = 1; j <= str2.length; j += 1) {
+      for (let i = 1; i <= str1.length; i += 1) {
+        const diff = str1[i - 1] === str2[j - 1] ? 0 : 1
+        matrix[j][i] = Math.min(
+          matrix[j][i - 1] + 1,
+          matrix[j - 1][i] + 1,
+          matrix[j - 1][i - 1] + diff
+        )
+      }
+    }
+
+    return 100-((matrix[str2.length][str1.length])/(str1.length > str2.length ? str1.length : str2.length))*100;
+  }

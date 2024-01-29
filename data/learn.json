@@ -1,0 +1,268 @@
+{
+    "learn": {
+    "_20FamousArtists": [
+        {
+            "artist": "Pablo Picasso",
+            "years": "(1881 – 1973)",
+            "country": "Spain",
+            "movements": "Cubism, Blue, Rose",
+            "artworks": "Guernica, Femme a la montre"
+        },
+        {
+            "artist": "Leonardo da Vinci",
+            "years": "(1452 – 1519)",
+            "country": "Italy",
+            "movements": "High Renaissance",
+            "artworks": "Mona Lisa, The Last Supper"
+        },
+        {
+            "artist": "Michaelangelo",
+            "years": "(1475 – 1564)",
+            "country": "Italy",
+            "movements": "High Renaissance",
+            "artworks": "David, Sistine Chapel, The Last Judgement"
+        },
+        {
+            "artist": "Raphael",
+            "years": "(1483 – 1520)",
+            "country": "Italy",
+            "movements": "High Renaissance",
+            "artworks": "The School of Athens"
+        },
+        {
+            "artist": "Rembrandt",
+            "years": "(1606 – 1690)",
+            "country": "Netherlands / Dutch Republic",
+            "movements": "Baroque",
+            "artworks": "The Night Watch"
+        },
+        {
+            "artist": "Vincent Van Gough",
+            "years": "(1853 – 1890)",
+            "country": "Netherlands",
+            "movements": "Post-Impressionism",
+            "artworks": "The Starry Night, Sunflowers"
+        },
+        {
+            "artist": "Auguste Rodin",
+            "years": "(1840 – 1917)",
+            "country": "France",
+            "movements": "",
+            "": "The Thinker, The Gates of Hell"
+        },
+        {
+            "artist": "Sandro Botticelli",
+            "years": "(1445 – 1510)",
+            "country": "Italy",
+            "movements": "Italian Renaissance",
+            "artworks": "The Birth of Venus, Adoration of the Magi"
+        },
+        {
+            "artist": "Clause Monet",
+            "years": "(1840 – 1926)",
+            "country": "France",
+            "movements": "Impressionism",
+            "artworks": "Impression, Sunrise, Water Lilies, Haystacks"
+        },
+        {
+            "artist": "Edvard Munch",
+            "years": "(1863 – 1944)",
+            "country": "Norway",
+            "movements": "Expressionism",
+            "artworks": "The Scream, The Sick Child"
+        },
+        {
+            "artist": "Salvador Dali",
+            "years": "(1904 - 1989)",
+            "country": "Spain",
+            "movements": "Cubism, Dada, Surrealism",
+            "artworks": "The Persistence of Memory"
+        },
+        {
+            "artist": "Jackson Pollock",
+            "years": "(1912 – 1956)",
+            "country": "U.S.A.",
+            "movements": "Abstract Expressionism",
+            "artworks": "Convergence"
+        },
+        {
+            "artist": "Johannes Vermeer",
+            "years": "(1632 – 1675)",
+            "country": "Netherlands / Dutch Republic",
+            "movements": "Baroque",
+            "artworks": "Girl with a Pearl Earring, The Milkmaid"
+        },
+        {
+            "artist": "Gustav Klimt",
+            "years": "(1862 – 1918)",
+            "country": "Austria",
+            "movements": "Art Nouveau",
+            "artworks": "The Kiss"
+        },
+        {
+            "artist": "Edward Hopper",
+            "years": "(1882 – 1967)",
+            "country": "U.S.A.",
+            "movements": "Realism",
+            "artworks": "Nighthawks, Chop Suey"
+        },
+        {
+            "artist": "Georges Seurat",
+            "years": "(1859 – 1891)",
+            "country": "France",
+            "movements": "Neo-Impressionism",
+            "artworks": "A Sunday Afternoon on the Island of La Grande Jatte"
+        },
+        {
+            "artist": "Pierre August-Renoir",
+            "years": "(1841 – 1919)",
+            "country": "France",
+            "movements": "Impressionism",
+            "artworks": "Luncheon of the Boating Party"
+        },
+        {
+            "artist": "Henri Matisse",
+            "years": "(1869 – 1954)",
+            "country": "France",
+            "movements": "Fauvism",
+            "artworks": "The Snail, Woman with a Hat"
+        },
+        {
+            "artist": "Andy Warhol",
+            "years": "(1928 – 1987)",
+            "country": "U.S.A.",
+            "movements": "Pop Art",
+            "artworks": "Campbell’s Soup Cans"
+        },
+        {
+            "artist": "Grant Wood",
+            "years": "(1891 – 1942)",
+            "country": "U.S.A.",
+            "movements": "Regionalism",
+            "artworks": "American Gothic"
+        }
+    ],
+    "_20FamousMusicians": [
+        {
+            "name": "Wolfgang Mozart",
+            "years_active": "(1756 – 1791)",
+            "country": "Austria",
+            "famous_pieces": "Requiem, The Magic Flute, Don Giovanni"
+        },
+        {
+            "name": "Johann Bach",
+            "years_active": "(1685 – 1750)",
+            "country": "Germany",
+            "famous_pieces": "Brandenberg Cocnertos, Goldberg Variations"
+        },
+        {
+            "name": "Ludwig Van Beethoven",
+            "years_active": "(1770 – 1827)",
+            "country": "Germany",
+            "famous_pieces": "Symphony No. 9 (Choral), No. 6 (Pastoral Symphony, No. 5 (Eroica Symphony), Moonlight Sonata, Fidelio"
+        },
+        {
+            "name": "Franz Schubert",
+            "years_active": "(1797 – 1828)",
+            "country": "Austria",
+            "famous_pieces": "Symphony Number 9 (“The Great”), Symphony Number 8 (unfinished)"
+        },
+        {
+            "name": "Claude Debussy",
+            "years_active": "(1862 – 1918)",
+            "country": "French",
+            "famous_pieces": "Nocturnes, Images, Pelléas et Mélisande"
+        },
+        {
+            "name": "Igor Stravinsky",
+            "years_active": "(1882 – 1971)",
+            "country": "Russia",
+            "famous_pieces": "The Rite of Spring, The Firebird"
+        },
+        {
+            "name": "Johannes Brahms",
+            "years_active": "(1833 – 1897)",
+            "country": "Austria",
+            "famous_pieces": "Wiegenlied (Lulliby), German Requiem, Hungarian Dances"
+        },
+        {
+            "name": "Giuseppi Verdi",
+            "years_active": "(1813 – 1901)",
+            "country": "Italy",
+            "famous_pieces": "Aida, Otella, Falstaff"
+        },
+        {
+            "name": "Richard Wagner",
+            "years_active": "(1815 – 1883)",
+            "country": "Germany",
+            "famous_pieces": "The Ring of Nibelung"
+        },
+        {
+            "name": "Béla Bartók",
+            "years_active": "(1881 – 1945)",
+            "country": "Hungarian",
+            "famous_pieces": "Cantata Profana, 6 string quartets"
+        },
+        {
+            "name": "Pyotr Tchaikovsky",
+            "years_active": "(1840 – 1893)",
+            "country": "Russia",
+            "famous_pieces": "Swan Lake, The Nutcracker, 1812 Overture"
+        },
+        {
+            "name": "Frédéric Chopin",
+            "years_active": "(1810 – 1849)",
+            "country": "Poland",
+            "famous_pieces": "Minute Waltz, Fantaisie-Impromptu"
+        },
+        {
+            "name": "Antonio Vivaldi",
+            "years_active": "(1678 – 1741)",
+            "country": "Italy",
+            "famous_pieces": "The Four Seasons"
+        },
+        {
+            "name": "Joseph Haydn",
+            "years_active": "(1732 – 1809)",
+            "country": "Austria",
+            "famous_pieces": "Called “Father of the Symphony”; Symphony No. 94 (Surprise), The Creation, London Symphonies"
+        },
+        {
+            "name": "Robert Schumann",
+            "years_active": "(1810 – 1856)",
+            "country": "Germany",
+            "famous_pieces": "Carnival, Symphonic Studies"
+        },
+        {
+            "name": "George Handel",
+            "years_active": "(1685 – 1759)",
+            "country": "Germany",
+            "famous_pieces": "Messiah, Water Music, Music for the Royal Fireworks"
+        },
+        {
+            "name": "Felix Mendelsohn",
+            "years_active": "(1809 – 1847)",
+            "country": "Germany",
+            "famous_pieces": "“Wedding March”, The Hebrides, melody for “Hark the Herald Angles Sing”"
+        },
+        {
+            "name": "Franz Liszt",
+            "years_active": "(1811 – 1866)",
+            "country": "Austria",
+            "famous_pieces": "greatest pianist perhaps, Hungarian Rhapsody"
+        },
+        {
+            "name": "Antonín Dvořák",
+            "years_active": "(1841 – 1904)",
+            "country": "Austria",
+            "famous_pieces": "New World Symphony (Symphony No. 9) – recording brought to the moon by Neil Armstrong"
+        },
+        {
+            "name": "Gustav Mahler",
+            "years_active": "(1860 – 1911)",
+            "country": "Austria",
+            "famous_pieces": "Resurrection (Symphony No. 2), The Song of the Earth, Symphony of a Thousand"
+        }
+    ]
+}
+}
