@@ -134,20 +134,26 @@ function handleKeyPress(event) {
 
 function _Previous(){
     i--;
-    if(music_mode && !art_mode){
+    if(music_mode && !art_mode && !book_mode){
         _Musicians();
     }
-    else if(art_mode){
+    else if(!music_mode && art_mode && !book_mode){
         _Artists();
+    }
+    else if(!music_mode && !art_mode && book_mode){
+        _Books();
     }
 }
 
 function _Next(){
     i++;
-    if(music_mode && !art_mode){
+    if(music_mode && !art_mode && !book_mode){
         _Musicians();
     }
-    else if(art_mode){
+    else if(!music_mode && art_mode && !book_mode){
         _Artists();
+    }
+    else if(!music_mode && !art_mode && book_mode){
+        _Books();
     }
 }
