@@ -33,6 +33,7 @@ function fetchJSONData() {
 fetchJSONData();
 
 async function _literature() {
+    document.getElementById("dropdown_id").innerHTML = "Literature";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.literature).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.literature[i].question;
@@ -50,6 +51,7 @@ async function _literature() {
 }
 
 async function _science() {
+    document.getElementById("dropdown_id").innerHTML = "Science";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.science).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.science[i].question;
@@ -67,6 +69,7 @@ async function _science() {
 }
 
 async function _mathematics() {
+    document.getElementById("dropdown_id").innerHTML = "Mathematics";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.mathematics).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.mathematics[i].question;
@@ -84,6 +87,7 @@ async function _mathematics() {
 }
 
 async function _fine_arts() {
+    document.getElementById("dropdown_id").innerHTML = "Fine Arts";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.fine_arts).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.fine_arts[i].question;
@@ -101,6 +105,7 @@ async function _fine_arts() {
 }
 
 async function _history() {
+    document.getElementById("dropdown_id").innerHTML = "History";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.history).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.history[i].question;
@@ -118,6 +123,7 @@ async function _history() {
 }
 
 async function _other() {
+    document.getElementById("dropdown_id").innerHTML = "Other";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.other).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.other[i].question;
@@ -135,6 +141,7 @@ async function _other() {
 }
 
 async function _RANDOM() {
+    document.getElementById("dropdown_id").innerHTML = "Random";
     const question_h1 = document.getElementById("question");
     for (let i = 0; i < Object.keys(jsonData.quizbowl.random).length; i++) {
         question_h1.innerHTML = jsonData.quizbowl.random[i].question;
